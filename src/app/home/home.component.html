@@ -1,0 +1,379 @@
+<!-- nav bar  -->
+<section>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container">
+                <a href="/">
+                    <div class="d-flex justify-content-center" id="logo">
+                        <img a src="../../assets/images/logo.png" alt="logo">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 d-flex justify-content-end">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item ">
+                                        <a class="nav-link active" aria-current="page" href="" id="home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#products">Products</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>
+<!-- carousel  -->
+<section>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../../assets/images/banner.png" class="d-block w-100" alt="carousel1">
+            </div>
+            <div class="carousel-item">
+                <img src="../../assets/images/banner3.png" class="d-block w-100" alt="carousel2">
+            </div>
+            <div class="carousel-item">
+                <img src="../../assets/images/banner.png" class="d-block w-100" alt="carousel3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+<!-- owl main -->
+<div class="container shiva">
+    <div class="about_maindiv">
+        <h3 class="section_heading">Trending Jewellery</h3>
+        <div class="row">
+            <div class="col-md-2 col-lg-3"></div>
+            <div class="col-md-8 col-lg-6">
+                <p class="diamond_main_paramain">Exquisite design, distinguished craftsmanship, unparalleled luxury and
+                    a legacy that tells a captivating tale-
+                    Rose,
+                    is one of India's leading luxury jewellery brands.</p>
+            </div>
+            <div class="col-md-3 col-md-2 col-lg-3"></div>
+        </div>
+    </div>
+    <div class="containor mt-5">
+        <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide class="owl-item item">
+                <img src="../../assets/images/owl_img_1.png" alt="Jewellery 2">
+            </ng-template>
+            <ng-template carouselSlide class="owl-item item active">
+                <img src="../../assets/images/owl_img_1.png" alt="Jewellery 2">
+            </ng-template>
+            <ng-template carouselSlide class="owl-item item">
+                <img src="../../assets/images/owl_img_1.png" alt="Jewellery 2">
+            </ng-template>
+            <ng-template carouselSlide class="owl-item item">
+                <img src="../../assets/images/owl_img_1.png" alt="Jewellery 2">
+            </ng-template>
+        </owl-carousel-o>
+    </div>
+</div>
+<!-- products  -->
+<section id="products">
+    <div class="container">
+        <h3 class="section_heading">Top Products For You</h3>
+        <div class="row product_img_maindiv">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div>
+                    <img src="../../assets/images/ring.png" alt="p-rong" class="w-100">
+                    <p class="product_name">Rose Pearl Ring</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div>
+                    <img src="../../assets/images/bangle.png" alt="p-rong" class="w-100">
+                    <p class="product_name">Vivid Peacock Bangle</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div>
+                    <img src="../../assets/images/nose pin.png" alt="p-rong" class="w-100">
+                    <p class="product_name">Five Stone Nose Pin </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div>
+                    <img src="../../assets/images/bangle2.png" alt="p-rong" class="w-100">
+                    <p class="product_name">Ethnic Bangles</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about us  -->
+<section id="about">
+    <div class="container">
+        <div class="about_maindiv">
+            <h3 class="section_heading">About Us</h3>
+            <div class="row">
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-md-8 col-lg-6">
+                    <p class="diamond_main_paramain">All the Lorem Ipsum generators on the Internet tend to repeat
+                        predefined
+                        chunks as necessary, making this the first true generator on the Internet. It uses a
+                        dictionary of
+                        over
+                        200 Latin words.</p>
+                </div>
+                <div class="col-md-3 col-md-2 col-lg-3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container backg_color">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 g-5">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-10 d-flex pink align-items-end">
+                        <img src="../../assets/images/pexels-elina-sazonova-1887473 1.png" alt="pinkimg"
+                            class="about_img ms-auto">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 g-5">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <!-- <h2 class="about_heading">Building Memories,<br> One Moment at a Time</h2>
+                            <p class="about_data">Philosophy</p>
+                            <p class="data_defination">Gold, the ancient, the modern and the futuristic asset class - The class apart.</p>
+                            <p class="about_data">Vision</p>
+                            <p class="data_defination">To build, characterize, designate, exemplify, illustrate, interpret, formalize and label
+                                Gold as timeless currency with absolute class domination the Gold first.</p>
+                            <p class="about_data">Mission</p>
+                            <p class="data_defination">To stimulate, sustain demand for gold, provide monetization and be the leader on the GOLD
+                                Liquidity.</p> -->
+                        <div class="about_maincontent">
+                            <h2 class="about_heading">Building Memories,<br> One Moment at a Time</h2>
+                            <p class="data_defination"><strong class="about_data">Philosophy</strong><br>Gold, the
+                                ancient, the modern and the futuristic asset class - The class apart.</p>
+                            <p class="data_defination"><strong class="about_data">Vision</strong><br>To build,
+                                characterize, designate, exemplify, illustrate, interpret, formalize and label Gold as
+                                timeless currency with absolute class domination the Gold first.</p>
+                            <p class="data_defination"><strong class="about_data">Mission</strong><br>To stimulate,
+                                sustain demand for gold, provide monetization and be the leader on the GOLD Liquidity.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact  -->
+<section id="contact">
+    <div class="container">
+        <div class="products_maindiv">
+            <p class="section_heading">Contact Us</p>
+            <div class="row">
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-md-8 col-lg-6">
+                    <p class="diamond_main_paramain">Exquisite design, distinguished craftsmanship, unparalleled luxury
+                        and a legacy that tells a captivating
+                        tale- Rose, is one of India’s leading luxury jewellery brands.</p>
+                </div>
+                <div class="col-md-3 col-md-2 col-lg-3"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card_contact  contact_maindiv border-0">
+                    <img src="../../assets/images/phone-call (2).png" alt="phonecontactus" class="contact_image">
+                    <a href="tel:7645486421">
+                        <p class="cno_img_name">+91 7645486421</p>
+                    </a>
+                    <p class="support_team">Support team will be available from
+                        9:00 AM till 7:00 PM</p>
+                    <p class="quick_call_contact2">Connect with our delight team over
+                        a quick phone call</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card_contact  contact_maindiv border-0">
+                    <img src="../../assets/images/email.png" alt="phonecontactus" class="contact_image">
+                    <a href="mailto:someone@example.com">
+                        <p class="cno_img_name">novia@gmail.com</p>
+                    </a>
+                    <p class="quick_call">Your question or feedback are always
+                        welcome at bluejewellery.com</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card_contact  contact_maindiv border-0">
+                    <img src="../../assets/images/whatsapp.png" alt="phonecontactus" class="contact_image">
+                    <a href="https://api.whatsapp.com/send?phone=15551234567">
+                        <p class="cno_img_name">Whatsapp Us</p>
+                    </a>
+                    <p class="quick_call">Our 24x7 shopping assistant is a text
+                        away</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card_contact  contact_maindiv border-0">
+                    <img src="../../assets/images/marker.png" alt="phonecontactus" class="contact_image">
+                    <a href="https://www.google.com/maps/place/Candere+By+Kalyan+Jewellers/@19.1896015,72.8390883,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7b6e31486ae1b:0x9130bb5e308a21d4!8m2!3d19.1895965!4d72.8416632!16s%2Fg%2F12hn7nbtb?entry=ttu"
+                        target="_blank">
+                        <p class="cno_img_name">Address</p>
+                    </a>
+                    <a href="https://www.google.com/maps/place/Candere+By+Kalyan+Jewellers/@19.1896015,72.8390883,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7b6e31486ae1b:0x9130bb5e308a21d4!8m2!3d19.1895965!4d72.8416632!16s%2Fg%2F12hn7nbtb?entry=ttu"
+                        target="_blank">
+                        <p class="quick_call">01-502, Om Shakti Samrat CHS Ltd., Plot No. 21, Shakti Nivas, , Malad
+                            West,
+                            Mumbai 400064, India.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- footer  -->
+<section>
+    <footer>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 col-12">
+                        <div class="footer_logo">
+                            <a href="/"><img src="../../assets/images/logo.png" alt="logo" id="logo" width="105px"
+                                    height="45px"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5 col-12">
+                        <div class="d-flex justify-content-evenly">
+                            <a href="/" class="text-decoration-none">
+                                <p class="footer_nav">Home</p>
+                            </a>
+                            <a href="#about" class="text-decoration-none">
+                                <p class="footer_nav">About Us</p>
+                            </a>
+                            <a href="#products" class="text-decoration-none">
+                                <p class="footer_nav">Products</p>
+                            </a>
+                            <a href="#contact" class="text-decoration-none">
+                                <p class="footer_nav">Contact Us</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-12">
+                        <div class="d-flex justify-content-center">
+                            <p class="footer_nav">Follow Us:&nbsp;</p>
+                            <div class="d-flex justify-content-evenly flex-fill follow_us_maindiv">
+                                <div><a href="https://www.facebook.com/matrika.goldsikka">
+                                        <img src="../../assets/images/facebook.png" alt="facebbok"
+                                            class="footer_followus">
+                                    </a></div>
+                                <div><a href="https://www.instagram.com/matrika_goldsikka/">
+                                        <img src="../../assets/images/insta.png" alt="insta" class="footer_followus">
+                                    </a></div>
+                                <div><a href="https://x.com/i/flow/login?redirect_after_login=%2Fmatrika_gs">
+                                        <img src="../../assets/images/vecteezy_x-new-twitter-logo_34800663 1.png"
+                                            alt="twitter" class="footer_followus">
+                                    </a></div>
+                                <div><a href="https://www.youtube.com/@matrika_goldsikka">
+                                        <img src="../../assets/images/youtub.png" alt="youtube" class="footer_followus">
+                                    </a></div>
+                                <div> <a href="https://www.linkedin.com/company/goldsikkalimited/">
+                                        <img src="../../assets/images/linkdin.png" alt="linkedin"
+                                            class="footer_followus">
+                                    </a></div>
+                                <div> <a href="https://in.pinterest.com/matrika_goldsikka/">
+                                        <img src="../../assets/images/pet.png" alt="pet" class="footer_followus">
+                                    </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- display only at 320px  -->
+            <div class="container display_none2">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row d-flex flex-row">
+                            <div class="col-md-6 col-12">
+                                <div class="d-flex flex-row justify-content-evenly align-items-center">
+                                    <div>
+                                        <h6 class="footer_nav1">we accept:</h6>
+                                    </div>
+                                    <div><img src="../../assets/images/visa.svg.png" alt="visa" class="visa"></div>
+                                    <div><img src="../../assets/images/master_card.svg.png" alt="visa" class="master">
+                                    </div>
+                                    <div><img src="../../assets/images/paytm.svg.png" alt="visa" class="paytm">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12 d-flex justify-content-evenly mt-4">
+
+                                <div><img src="../../assets/images/rupay.svg.png" alt="visa" class="rupay">
+                                </div>
+                                <div><img src="../../assets/images/cod.svg.png" alt="visa" class="cod">
+                                </div>
+                                <div><img src="../../assets/images/paypal.svg.png" alt="visa" class="paypal">
+                                </div>
+                                <div><img src="../../assets/images/american_express.svg.png" alt="visa"
+                                        class="american_express">
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row footer_space_bottom">
+                    <div class="col-md-6 col-12 display_none1">
+                        <div class="d-flex">
+                            <p class="footer_nav">We Accept:&nbsp;</p>
+                            <div class="payments d-flex flex-fill justify-content-between align-items-center">
+                                <img src="../../assets/images/visa.svg.png" alt="visa" class="visa">
+                                <img src="../../assets/images/master_card.svg.png" alt="visa" class="master">
+                                <img src="../../assets/images/paytm.svg.png" alt="visa" class="paytm">
+                                <img src="../../assets/images/rupay.svg.png" alt="visa" class="rupay">
+                                <img src="../../assets/images/cod.svg.png" alt="visa" class="cod">
+                                <img src="../../assets/images/paypal.svg.png" alt="visa" class="paypal">
+                                <img src="../../assets/images/american_express.svg.png" alt="visa"
+                                    class="american_express">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 display_start">
+                        <p class="designed_by">2023-2024 Glory.Design by: <span><a href="https://xyug.in/" class="xyug">
+                                    X-YUG Technologies</a></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</section>
